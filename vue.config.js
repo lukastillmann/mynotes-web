@@ -4,9 +4,9 @@ module.exports = {
     publicPath: PUBLIC_PATH,
     devServer: {
         host: "0.0.0.0",
-        port: 3001,
+        port: 6001,
         disableHostCheck: true,
-        public: "me.orf.at:3001",
+        public: "me.orf.at:6001",
     },
     css: {
         loaderOptions: {
