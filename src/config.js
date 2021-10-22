@@ -1,5 +1,6 @@
 import URITemplate from "urijs/src/URITemplate";
 const BASE_URL_API = process.env.VUE_APP_API_URL || "http://me.orf.at:3000";
+console.log('BASE_URL_API', BASE_URL_API);
 
 const config = {
     api: {
